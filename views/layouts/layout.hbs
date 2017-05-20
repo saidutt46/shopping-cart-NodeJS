@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{title}}</title>
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--fontawesome js-->
+    <script src="https://use.fontawesome.com/bd85350717.js"></script>
+    <!--main css styleheet-->
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    {{!-- fonts style --}}
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway" rel="stylesheet">
+  </head>
+  <body>
+    {{> header}}
+    <div class="container game">
+      <h1>G A M E H U B </h1>
+      <p>
+        Own Your Game
+      </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <div class="container">
+      {{{body}}}
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bolder;
+}
+nav .navbar-brand {
+  font-size: 24px;
+  color: rgb(83, 206, 233) !important;
+}
+nav .navbar-brand:hover {
+  color: rgb(150, 252, 87) !important;
+  font-size: 26px;
+}
+.navbar {
+  margin: 0px;
+}
+nav li a {
+  font-size: 16px;
+}
+nav li a:hover {
+  color: rgb(83, 206, 233) !important;
+}
+
+nav li i {
+  color:rgb(83, 206, 233);
+}
+.thumbnail img {
+  max-height: 180px;
+}
+.thumbnail .desc {
+  color: rgb(136, 136, 136);
+}
+.price {
+  font-weight: bolder;
+  font-size: 16px;
+}
+.game {
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+.game h1 {
+  font-size: 70px;
+}
+.game p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.no {
+  font-size: 40px;
+  text-align: center;
+}
+.no i {
+  color: rgb(240, 105, 126);
+}
+.go {
+  text-align: center;
+  font-size: 30px;
+}
+.go i {
+  font-size: 80px;
+}
